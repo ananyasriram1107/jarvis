@@ -5,19 +5,12 @@
 - get_target() picks up random words between keyword and app name
   e.g. "open fatass chrome" → looks for "fatass chrome"
   Fix: take last word after keyword, or use NLP library later
-- App store is limited to manually added apps
-- Spelling mistakes cause lookup failures
-  Fix: use difflib.get_close_matches() for fuzzy matching
-- Pronoun resolution: "close it" doesn't work
-  Fix: track last opened app in a variable
-- get_target() picks up random words between keyword and app name
 - Smart fallback: if command target not found in store,
   pass to AI instead of asking for path
   e.g. "open my favourite app" should let AI interpret intent
 
 ## Future Features
 
-- Voice output (pyttsx3)
 - Real Claude API integration
 - Persistent app store (save new apps between sessions)
 - Voice output (pyttsx3)
@@ -26,15 +19,11 @@
 - Context tracking for pronouns
 - Voice input (speech_recognition)
 
-## Changes
-
-- Switch to working free API (Groq/OpenRouter)
-
 ## STAGES
 
 - Stage 1 — Core assistant + commands
 - Stage 2 — Voice output
-- Stage 3 — Voice input
+- Stage 3 — Voice input(DONE UP TILL HERE)
 - Stage 4 — GUI window interface
 - Stage 5 — "Hey JARVIS" wake word
 - Stage 6 — Backlog fixes + polish
