@@ -1,0 +1,6 @@
+anthropic
+python-dotenv
+google-generativeai
+groq
+pyttsx3
+speechrecognition
