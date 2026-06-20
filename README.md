@@ -90,8 +90,8 @@ Customize the assistant in `config.py`:
 
 ```json
 {
-  "chrome": "C:\\Users\\Ananya\\Desktop\\google docs.lnk",
-  "discord": "C:\\Users\\Ananya\\Desktop\\Discord.lnk"
+  "chrome": "C:\\Users\\name\\Desktop\\google docs.lnk",
+  "discord": "C:\\Users\\name\\Desktop\\Discord.lnk"
 }
 ```
 
