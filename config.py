@@ -4,7 +4,7 @@ USER_NAME = "Ananya"
 # The maximum number of tokens to be used in the conversation history when generating a response.
 MAX_TOKENS = 1024
 GEMINI_API_KEY = ""
-MODEL_NAME = "gemini-2.0-flash"
+MODEL_NAME = "groq-1b-latest"
 
 SYSTEM_PROMPT = f"""You are JARVIS, a personal AI assistant for Ananya.
 You should adress Ananya as ma'am where ever necessary and not in every line,

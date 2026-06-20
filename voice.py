@@ -13,7 +13,8 @@ def voice_input():
     try:
         with sr.Microphone() as source:
             print("Listening...")
-            audio = recognizer.listen(source,timeout = 5,phrase_time_limit=15) # the phrase limit is how much continous speaking you can do
+            audio = recognizer.listen(source,timeout = 5,phrase_time_limit=15)
+            # the phrase limit is how much continous speaking you can do
             text = recognizer.recognize_google(audio)
             return text.lower()
     except (sr.WaitTimeoutError, sr.UnknownValueError, sr.RequestError):

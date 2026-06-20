@@ -4,3 +4,8 @@ google-generativeai
 groq
 pyttsx3
 speechrecognition
+requests
+pstuil
+pyperclip
+pyautogui
+
